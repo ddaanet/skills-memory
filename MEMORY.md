@@ -1,0 +1,12 @@
+- [Handoff — two distinct things](project_handoff_distinction.md) — `ddaanet/handoff` repo ≠ the `handoff`/`passation` skill in this repo
+- [Marketplace location](reference_marketplace_repo.md) — `/Users/david/code/claude-plugins`; subdir plugins need `git-subdir` not `github`; update gotcha
+- [Sandbox dotfiles](feedback_git_add_no_dash_A.md) — char-device dotfiles are sandbox artifacts, gitignored; not a real repo concern
+- [Subagent model default](feedback_subagent_model_default.md) — default subagents to haiku, override to sonnet/opus only with concrete reason
+- [AskUser action labels](feedback_askuser_action_labels.md) — French first-person "Je fais X" labels get misread by the permission classifier as the user acting
+- [.claude/ is tracked](feedback_claude_dir_tracked.md) — in skills repo, commit .claude/settings.json + handoff-task.md; only handoff-session is gitignored
+- [git status sandbox retry](feedback_git_status_sandbox_retry.md) — run any command containing git status with dangerouslyDisableSandbox from the start; compound && is fine, the sandbox is the problem
+- [TodoWrite renamed](feedback_todowrite_renamed.md) — task tracking is now TaskCreate/TaskUpdate/TaskList (deferred); load via ToolSearch when a skill says TodoWrite
+- [No transient state in commit msgs](feedback_no_transient_state_in_commit_msg.md) — never write "unpushed"/"ahead of remote" in a commit message; describe the change, not the sync state
+- [Commit language is English](feedback_commit_language_english.md) — English commits by default (even in this bilingual repo); French only in French-only projects
+- [Conventional Commit type](feedback_gitmoji_match_change_type.md) — pick the right CC type (gitmoji is just its rendering); release/🔖 only for version bumps, handoff/notes are docs/📝
+- [No release/push without substance](feedback_no_release_without_substance.md) — don't prod to push/release trailing docs or handoff commits; report the commit and stop
