@@ -10,3 +10,4 @@
 - [Commit language is English](feedback_commit_language_english.md) — English commits by default (even in this bilingual repo); French only in French-only projects
 - [Conventional Commit type](feedback_gitmoji_match_change_type.md) — pick the right CC type (gitmoji is just its rendering); release/🔖 only for version bumps, handoff/notes are docs/📝
 - [No release/push without substance](feedback_no_release_without_substance.md) — don't prod to push/release trailing docs or handoff commits; report the commit and stop
+- [autorename not gitignored](feedback_autorename_not_gitignored.md) — .claude/autorename presence = hook defect; investigate, don't suppress
