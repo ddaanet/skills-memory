@@ -11,3 +11,4 @@
 - [Conventional Commit type](feedback_gitmoji_match_change_type.md) — pick the right CC type (gitmoji is just its rendering); release/🔖 only for version bumps, handoff/notes are docs/📝
 - [No release/push without substance](feedback_no_release_without_substance.md) — don't prod to push/release trailing docs or handoff commits; report the commit and stop
 - [autorename not gitignored](feedback_autorename_not_gitignored.md) — .claude/autorename presence = hook defect; investigate, don't suppress
+- [Mirror twin skill edits](feedback_mirror_twin_skill_edits.md) — edit one language twin, edit both; a brief naming one file is underspecified, and Phase 3 header parity is the check
