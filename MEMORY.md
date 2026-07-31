@@ -12,3 +12,5 @@
 - [No release/push without substance](feedback_no_release_without_substance.md) — don't prod to push/release trailing docs or handoff commits; report the commit and stop
 - [autorename not gitignored](feedback_autorename_not_gitignored.md) — .claude/autorename presence = hook defect; investigate, don't suppress
 - [Mirror twin skill edits](feedback_mirror_twin_skill_edits.md) — edit one language twin, edit both; a brief naming one file is underspecified, and Phase 3 header parity is the check
+- [Omit needless words](feedback_omit_needless_words.md) — compress replies; cut preambles and connective tissue, keep the evidence
+- [Verify the premise before approval](feedback_verify_premise_before_approval.md) — don't test what's true by construction; put the premise in the approval question, not just the scope
