@@ -1,4 +1,3 @@
-- [Handoff — two distinct things](project_handoff_distinction.md) — `ddaanet/handoff` repo ≠ the `handoff`/`passation` skill in this repo
 - [Marketplace location](reference_marketplace_repo.md) — `/Users/david/code/claude-plugins`; subdir plugins need `git-subdir` not `github`; update gotcha
 - [Sandbox dotfiles](feedback_git_add_no_dash_A.md) — char-device dotfiles are sandbox artifacts, gitignored; not a real repo concern
 - [Subagent model default](feedback_subagent_model_default.md) — default subagents to haiku, override to sonnet/opus only with concrete reason
